@@ -9,7 +9,7 @@ export default {
         this.map.remove();
       }
 
-      this.map = L.map("map").setView([23.810332, 90.4125181], 9);
+      this.map = L.map("map").setView([23.810332, 90.4125181], 8);
       
       L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
         attribution:
@@ -31,7 +31,7 @@ export default {
             color: "red",
             fillColor: "#f03",
             fillOpacity: 0.5,
-            radius: this.addressWithLatLang[i].radius *100,
+            radius: this.addressWithLatLang[i].radius*100,
           }
         ).addTo(this.map);
 

@@ -1,15 +1,15 @@
 <script>
-import HelloWorld from "./components/HelloWorld.vue";
+import MapContainer from "./components/MapContainer.vue";
 
 export default {
   components: {
-    HelloWorld,
+    MapContainer,
   },
 };
 </script>
 
 <template>
-  <HelloWorld />
+  <MapContainer />
 </template>
 
 <style scoped>
